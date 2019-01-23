@@ -25,9 +25,15 @@ public class SyncThread implements Runnable{
     }
 
     public static void main(String[] args) {
-        SyncThread syncThread = new SyncThread();
+      /*  SyncThread syncThread = new SyncThread();两个线程公用一个对象
         Thread thread1 = new Thread(syncThread,"SyncThread1");
         Thread thread2 = new Thread(syncThread,"SyncThread2");
+        thread1.start();
+        thread2.start();*/
+
+//        SyncThread syncThread = new SyncThread();两个对象
+        Thread thread1 = new Thread(new SyncThread(),"SyncThread1");
+        Thread thread2 = new Thread(new SyncThread(),"SyncThread2");
         thread1.start();
         thread2.start();
     }
