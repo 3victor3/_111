@@ -19,7 +19,5 @@ public class Item {
         Item yataghan = new Item();
         yataghan.name = "长剑";
         yataghan.price = 350;
-
-
     }
 }
