@@ -8,9 +8,12 @@ public class Variable {
         float b = 2.769343f;
         int c = 365;
         int d = 12;
-        char e = '中';
+        char e = 'A';
+        short s = 80;
         boolean b1 = false;
         String str = "不可描述";
+
+        e = (char)s;
 
 
         System.out.println(a);

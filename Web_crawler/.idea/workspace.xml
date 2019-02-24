@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96b2798c-6b4a-4475-b5af-a680b88cbc50" name="Default Changelist" comment="" />
+    <list default="true" id="96b2798c-6b4a-4475-b5af-a680b88cbc50" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_111/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_111/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_111/src/main/java/exercise/SyncThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_111/src/main/java/exercise/SyncThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_111/src/main/java/how2j_object/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_111/src/main/java/how2j_object/Variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_111/target/classes/how2j_object/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/../_111/target/classes/how2j_object/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_111/target/classes/how2j_object/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/../_111/target/classes/how2j_object/Item.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spider_csdn/csdn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-228">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="266">
+              <caret line="21" column="43" selection-start-line="18" selection-start-column="54" selection-end-line="21" selection-end-column="43" />
               <folding>
                 <element signature="e#16#31#0" expanded="true" />
               </folding>
@@ -25,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spider_csdn/req.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="285">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -55,10 +63,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -68,6 +76,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,7 +93,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,9 +153,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22654155" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24307036" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -172,22 +180,22 @@
     <entry file="file://$PROJECT_DIR$/spider_csdn/req.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_csdn/req.py">
+    <entry file="file://$PROJECT_DIR$/spider_csdn/csdn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="266">
+          <caret line="21" column="43" selection-start-line="18" selection-start-column="54" selection-end-line="21" selection-end-column="43" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_csdn/csdn.py">
+    <entry file="file://$PROJECT_DIR$/spider_csdn/req.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="285">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

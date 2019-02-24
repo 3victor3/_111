@@ -37,4 +37,7 @@ public class SyncThread implements Runnable{
         thread1.start();
         thread2.start();
     }
+
+
+
 }
