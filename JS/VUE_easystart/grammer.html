@@ -1,0 +1,53 @@
+<html>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<div id="app">
+    <!-- v-once可以使得插值处仅进行一次赋值 -->
+    <span v-once>message:{{msg}}</span>
+    <button v-on:click="msg = '222'">change it</button>
+</div>
+
+<div id="app2">
+    <p>{{foo}}</p>
+    <button v-on:click="foo = 'baz'">change it</button>
+</div>
+
+<div id="app3">
+    <p>using mustaches:{{rawhtml}}</p>
+    <p>using v-html directive:<span v-html="rawHtml"></span></p>
+</div>
+
+<div v-bind:id="dynamicId">
+    <button v-on:click>so cool</button>
+</div>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            msg: '111'
+        }
+    })
+
+    var obj = {
+        foo: 'before'
+    }
+
+    // Object.freeze(obj)     freeze 可以阻止元素的修改
+
+    new Vue({
+        el: "#app2",
+        data: obj
+    })
+
+    var app3 = new Vue({
+        //todo
+    })
+
+    var dynamicId = new Vue({
+        el:"#dynamicId",
+        data:{
+            dynamicId:false
+        }
+    })
+</script>
+
+</html>
