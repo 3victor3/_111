@@ -9,7 +9,9 @@
 // 在crud操作的时候性能稍差。因为排序不允许key值为null
 
 
-package Chapter_fourteen;
+package book.Chapter_fourteen;
+
+import book.Chapter_fourteen.Emp;
 
 import java.util.*;
 
