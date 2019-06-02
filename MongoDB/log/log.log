@@ -244,3 +244,297 @@
 2019-05-10T16:02:42.834+0800 I CONTROL  [initandlisten] options: { config: "C:\Program Files\MongoDB\Server\4.0\bin\mongod.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, storage: { dbPath: "D:\workspace\exercise\MongoDB\db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "D:\workspace\exercise\MongoDB\log\log.log" } }
 2019-05-10T16:02:42.845+0800 I STORAGE  [initandlisten] exception in initAndListen std::exception: 无法加载或初始化请求的服务提供程序。, terminating
 2019-05-10T16:02:42.918+0800 I CONTROL  [serviceStopWorker] now exiting
+2019-05-16T15:19:51.813+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2019-05-16T15:19:53.646+0800 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-05-16T15:19:53.722+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2019-05-16T15:19:53.862+0800 I CONTROL  [initandlisten] MongoDB starting : pid=4240 port=27017 dbpath=D:\workspace\exercise\MongoDB\db 64-bit host=LAPTOP-EN2QSNAB
+2019-05-16T15:19:53.863+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2019-05-16T15:19:53.863+0800 I CONTROL  [initandlisten] db version v4.0.8
+2019-05-16T15:19:53.863+0800 I CONTROL  [initandlisten] git version: 9b00696ed75f65e1ebc8d635593bed79b290cfbb
+2019-05-16T15:19:53.863+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-05-16T15:19:53.864+0800 I CONTROL  [initandlisten] modules: none
+2019-05-16T15:19:53.864+0800 I CONTROL  [initandlisten] build environment:
+2019-05-16T15:19:53.864+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2019-05-16T15:19:53.865+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2019-05-16T15:19:53.865+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-05-16T15:19:53.865+0800 I CONTROL  [initandlisten] options: { config: "C:\Program Files\MongoDB\Server\4.0\bin\mongod.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, storage: { dbPath: "D:\workspace\exercise\MongoDB\db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "D:\workspace\exercise\MongoDB\log\log.log" } }
+2019-05-16T15:19:53.915+0800 I STORAGE  [initandlisten] Detected data files in D:\workspace\exercise\MongoDB\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2019-05-16T15:19:53.916+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7626M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-05-16T15:19:54.761+0800 I STORAGE  [initandlisten] WiredTiger message [1557991194:761054][4240:140705103039568], txn-recover: Main recovery loop: starting at 5/646528 to 6/256
+2019-05-16T15:19:55.105+0800 I STORAGE  [initandlisten] WiredTiger message [1557991195:105278][4240:140705103039568], txn-recover: Recovering log 5 through 6
+2019-05-16T15:19:55.251+0800 I STORAGE  [initandlisten] WiredTiger message [1557991195:251102][4240:140705103039568], txn-recover: Recovering log 6 through 6
+2019-05-16T15:19:55.384+0800 I STORAGE  [initandlisten] WiredTiger message [1557991195:384526][4240:140705103039568], txn-recover: Set global recovery timestamp: 0
+2019-05-16T15:19:56.216+0800 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2019-05-16T15:19:56.589+0800 I CONTROL  [initandlisten] 
+2019-05-16T15:19:56.589+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-05-16T15:19:56.589+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-05-16T15:19:56.589+0800 I CONTROL  [initandlisten] 
+2019-05-16T15:19:58.014+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/workspace/exercise/MongoDB/db/diagnostic.data'
+2019-05-16T15:19:58.024+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2019-05-16T15:19:58.024+0800 I STORAGE  [initandlisten] Service running
+2019-05-16T20:00:47.502+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:61357 #1 (1 connection now open)
+2019-05-16T20:00:47.503+0800 I NETWORK  [conn1] received client metadata from 127.0.0.1:61357 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.0.8" }, os: { type: "Windows", name: "Microsoft Windows 10", architecture: "x86_64", version: "10.0 (build 17134)" } }
+2019-05-16T20:01:28.651+0800 I NETWORK  [conn1] end connection 127.0.0.1:61357 (0 connections now open)
+2019-05-17T17:41:06.745+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2019-05-17T17:41:06.854+0800 I NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2019-05-17T17:41:06.856+0800 I CONTROL  [serviceShutdown] Shutting down free monitoring
+2019-05-17T17:41:06.856+0800 I FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2019-05-17T17:41:06.859+0800 I STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2019-05-17T17:41:06.860+0800 I STORAGE  [serviceShutdown] Shutting down session sweeper thread
+2019-05-17T17:41:06.860+0800 I STORAGE  [serviceShutdown] Finished shutting down session sweeper thread
+2019-05-17T17:41:07.022+0800 I STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2019-05-17T17:41:07.023+0800 I CONTROL  [serviceShutdown] now exiting
+2019-05-17T17:41:37.312+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2019-05-17T17:41:39.135+0800 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-05-17T17:41:39.200+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2019-05-17T17:41:40.554+0800 I CONTROL  [initandlisten] MongoDB starting : pid=4900 port=27017 dbpath=D:\workspace\exercise\MongoDB\db 64-bit host=LAPTOP-EN2QSNAB
+2019-05-17T17:41:40.554+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2019-05-17T17:41:40.554+0800 I CONTROL  [initandlisten] db version v4.0.8
+2019-05-17T17:41:40.554+0800 I CONTROL  [initandlisten] git version: 9b00696ed75f65e1ebc8d635593bed79b290cfbb
+2019-05-17T17:41:40.555+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-05-17T17:41:40.555+0800 I CONTROL  [initandlisten] modules: none
+2019-05-17T17:41:40.555+0800 I CONTROL  [initandlisten] build environment:
+2019-05-17T17:41:40.556+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2019-05-17T17:41:40.556+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2019-05-17T17:41:40.556+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-05-17T17:41:40.556+0800 I CONTROL  [initandlisten] options: { config: "C:\Program Files\MongoDB\Server\4.0\bin\mongod.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, storage: { dbPath: "D:\workspace\exercise\MongoDB\db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "D:\workspace\exercise\MongoDB\log\log.log" } }
+2019-05-17T17:41:40.635+0800 I STORAGE  [initandlisten] Detected data files in D:\workspace\exercise\MongoDB\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2019-05-17T17:41:40.651+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7626M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-05-17T17:41:41.363+0800 I STORAGE  [initandlisten] WiredTiger message [1558086101:362748][4900:140717271764048], txn-recover: Main recovery loop: starting at 6/123648 to 7/256
+2019-05-17T17:41:41.737+0800 I STORAGE  [initandlisten] WiredTiger message [1558086101:737746][4900:140717271764048], txn-recover: Recovering log 6 through 7
+2019-05-17T17:41:41.963+0800 I STORAGE  [initandlisten] WiredTiger message [1558086101:963143][4900:140717271764048], txn-recover: Recovering log 7 through 7
+2019-05-17T17:41:42.073+0800 I STORAGE  [initandlisten] WiredTiger message [1558086102:73847][4900:140717271764048], txn-recover: Set global recovery timestamp: 0
+2019-05-17T17:41:42.984+0800 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2019-05-17T17:41:43.405+0800 I CONTROL  [initandlisten] 
+2019-05-17T17:41:43.405+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-05-17T17:41:43.405+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-05-17T17:41:43.406+0800 I CONTROL  [initandlisten] 
+2019-05-17T17:41:44.910+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/workspace/exercise/MongoDB/db/diagnostic.data'
+2019-05-17T17:41:45.084+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2019-05-17T17:41:45.084+0800 I STORAGE  [initandlisten] Service running
+2019-05-26T17:25:17.511+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2019-05-26T17:25:17.562+0800 I NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2019-05-26T17:25:17.567+0800 I CONTROL  [serviceShutdown] Shutting down free monitoring
+2019-05-26T17:25:17.568+0800 I FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2019-05-26T17:25:17.572+0800 I STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2019-05-26T17:25:17.573+0800 I STORAGE  [serviceShutdown] Shutting down session sweeper thread
+2019-05-26T17:25:17.573+0800 I STORAGE  [serviceShutdown] Finished shutting down session sweeper thread
+2019-05-26T17:25:17.827+0800 I STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2019-05-26T17:25:17.828+0800 I CONTROL  [serviceShutdown] now exiting
+2019-05-26T17:25:43.535+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2019-05-26T17:25:45.648+0800 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-05-26T17:25:45.799+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2019-05-26T17:25:46.062+0800 I CONTROL  [initandlisten] MongoDB starting : pid=4888 port=27017 dbpath=D:\workspace\exercise\MongoDB\db 64-bit host=LAPTOP-EN2QSNAB
+2019-05-26T17:25:46.063+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2019-05-26T17:25:46.063+0800 I CONTROL  [initandlisten] db version v4.0.8
+2019-05-26T17:25:46.063+0800 I CONTROL  [initandlisten] git version: 9b00696ed75f65e1ebc8d635593bed79b290cfbb
+2019-05-26T17:25:46.064+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-05-26T17:25:46.064+0800 I CONTROL  [initandlisten] modules: none
+2019-05-26T17:25:46.064+0800 I CONTROL  [initandlisten] build environment:
+2019-05-26T17:25:46.065+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2019-05-26T17:25:46.065+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2019-05-26T17:25:46.065+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-05-26T17:25:46.066+0800 I CONTROL  [initandlisten] options: { config: "C:\Program Files\MongoDB\Server\4.0\bin\mongod.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, storage: { dbPath: "D:\workspace\exercise\MongoDB\db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "D:\workspace\exercise\MongoDB\log\log.log" } }
+2019-05-26T17:25:46.220+0800 I STORAGE  [initandlisten] Detected data files in D:\workspace\exercise\MongoDB\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2019-05-26T17:25:46.222+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7626M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-05-26T17:25:47.267+0800 I STORAGE  [initandlisten] WiredTiger message [1558862747:266831][4888:140715114056784], txn-recover: Main recovery loop: starting at 7/761472 to 8/256
+2019-05-26T17:25:47.681+0800 I STORAGE  [initandlisten] WiredTiger message [1558862747:681721][4888:140715114056784], txn-recover: Recovering log 7 through 8
+2019-05-26T17:25:48.063+0800 I STORAGE  [initandlisten] WiredTiger message [1558862748:62701][4888:140715114056784], txn-recover: Recovering log 8 through 8
+2019-05-26T17:25:48.215+0800 I STORAGE  [initandlisten] WiredTiger message [1558862748:215293][4888:140715114056784], txn-recover: Set global recovery timestamp: 0
+2019-05-26T17:25:48.967+0800 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2019-05-26T17:25:49.418+0800 I CONTROL  [initandlisten] 
+2019-05-26T17:25:49.419+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-05-26T17:25:49.419+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-05-26T17:25:49.419+0800 I CONTROL  [initandlisten] 
+2019-05-26T17:25:51.685+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/workspace/exercise/MongoDB/db/diagnostic.data'
+2019-05-26T17:25:51.860+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2019-05-26T17:25:51.860+0800 I STORAGE  [initandlisten] Service running
+2019-05-27T17:37:51.602+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2019-05-27T17:37:51.739+0800 I NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2019-05-27T17:37:51.741+0800 I CONTROL  [serviceShutdown] Shutting down free monitoring
+2019-05-27T17:37:51.741+0800 I FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2019-05-27T17:37:51.743+0800 I STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2019-05-27T17:37:51.744+0800 I STORAGE  [serviceShutdown] Shutting down session sweeper thread
+2019-05-27T17:37:51.744+0800 I STORAGE  [serviceShutdown] Finished shutting down session sweeper thread
+2019-05-27T17:37:51.896+0800 I STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2019-05-27T17:37:51.896+0800 I CONTROL  [serviceShutdown] now exiting
+2019-05-27T20:18:07.503+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2019-05-27T20:18:08.974+0800 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-05-27T20:18:09.017+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2019-05-27T20:18:09.266+0800 I CONTROL  [initandlisten] MongoDB starting : pid=4020 port=27017 dbpath=D:\workspace\exercise\MongoDB\db 64-bit host=LAPTOP-EN2QSNAB
+2019-05-27T20:18:09.267+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2019-05-27T20:18:09.267+0800 I CONTROL  [initandlisten] db version v4.0.8
+2019-05-27T20:18:09.267+0800 I CONTROL  [initandlisten] git version: 9b00696ed75f65e1ebc8d635593bed79b290cfbb
+2019-05-27T20:18:09.268+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-05-27T20:18:09.268+0800 I CONTROL  [initandlisten] modules: none
+2019-05-27T20:18:09.268+0800 I CONTROL  [initandlisten] build environment:
+2019-05-27T20:18:09.268+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2019-05-27T20:18:09.269+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2019-05-27T20:18:09.269+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-05-27T20:18:09.269+0800 I CONTROL  [initandlisten] options: { config: "C:\Program Files\MongoDB\Server\4.0\bin\mongod.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, storage: { dbPath: "D:\workspace\exercise\MongoDB\db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "D:\workspace\exercise\MongoDB\log\log.log" } }
+2019-05-27T20:18:09.451+0800 I STORAGE  [initandlisten] Detected data files in D:\workspace\exercise\MongoDB\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2019-05-27T20:18:09.452+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7626M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-05-27T20:18:10.387+0800 I STORAGE  [initandlisten] WiredTiger message [1558959490:387382][4020:140727238282320], txn-recover: Main recovery loop: starting at 8/86144 to 9/256
+2019-05-27T20:18:10.623+0800 I STORAGE  [initandlisten] WiredTiger message [1558959490:623478][4020:140727238282320], txn-recover: Recovering log 8 through 9
+2019-05-27T20:18:10.872+0800 I STORAGE  [initandlisten] WiredTiger message [1558959490:872469][4020:140727238282320], txn-recover: Recovering log 9 through 9
+2019-05-27T20:18:10.953+0800 I STORAGE  [initandlisten] WiredTiger message [1558959490:952822][4020:140727238282320], txn-recover: Set global recovery timestamp: 0
+2019-05-27T20:18:11.875+0800 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2019-05-27T20:18:12.177+0800 I CONTROL  [initandlisten] 
+2019-05-27T20:18:12.177+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-05-27T20:18:12.177+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-05-27T20:18:12.177+0800 I CONTROL  [initandlisten] 
+2019-05-27T20:18:13.068+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/workspace/exercise/MongoDB/db/diagnostic.data'
+2019-05-27T20:18:13.075+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2019-05-27T20:18:13.079+0800 I STORAGE  [initandlisten] Service running
+2019-05-27T20:18:13.667+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2019-05-27T20:18:13.670+0800 I NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2019-05-27T20:18:13.671+0800 I CONTROL  [serviceShutdown] Shutting down free monitoring
+2019-05-27T20:18:13.672+0800 I FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2019-05-27T20:18:13.672+0800 I STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2019-05-27T20:18:13.702+0800 I STORAGE  [serviceShutdown] Shutting down session sweeper thread
+2019-05-27T20:18:13.703+0800 I STORAGE  [serviceShutdown] Finished shutting down session sweeper thread
+2019-05-27T20:18:14.179+0800 I STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2019-05-27T20:18:14.180+0800 I CONTROL  [serviceShutdown] now exiting
+2019-05-27T20:18:34.443+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2019-05-27T20:18:36.109+0800 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-05-27T20:18:36.186+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2019-05-27T20:18:36.384+0800 I CONTROL  [initandlisten] MongoDB starting : pid=4232 port=27017 dbpath=D:\workspace\exercise\MongoDB\db 64-bit host=LAPTOP-EN2QSNAB
+2019-05-27T20:18:36.385+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2019-05-27T20:18:36.385+0800 I CONTROL  [initandlisten] db version v4.0.8
+2019-05-27T20:18:36.385+0800 I CONTROL  [initandlisten] git version: 9b00696ed75f65e1ebc8d635593bed79b290cfbb
+2019-05-27T20:18:36.386+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-05-27T20:18:36.386+0800 I CONTROL  [initandlisten] modules: none
+2019-05-27T20:18:36.386+0800 I CONTROL  [initandlisten] build environment:
+2019-05-27T20:18:36.386+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2019-05-27T20:18:36.387+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2019-05-27T20:18:36.387+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-05-27T20:18:36.387+0800 I CONTROL  [initandlisten] options: { config: "C:\Program Files\MongoDB\Server\4.0\bin\mongod.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, storage: { dbPath: "D:\workspace\exercise\MongoDB\db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "D:\workspace\exercise\MongoDB\log\log.log" } }
+2019-05-27T20:18:36.446+0800 I STORAGE  [initandlisten] Detected data files in D:\workspace\exercise\MongoDB\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2019-05-27T20:18:36.452+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7626M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-05-27T20:18:37.314+0800 I STORAGE  [initandlisten] WiredTiger message [1558959517:314424][4232:140707458403408], txn-recover: Main recovery loop: starting at 9/4992 to 10/256
+2019-05-27T20:18:37.665+0800 I STORAGE  [initandlisten] WiredTiger message [1558959517:665484][4232:140707458403408], txn-recover: Recovering log 9 through 10
+2019-05-27T20:18:38.059+0800 I STORAGE  [initandlisten] WiredTiger message [1558959518:58432][4232:140707458403408], txn-recover: Recovering log 10 through 10
+2019-05-27T20:18:38.173+0800 I STORAGE  [initandlisten] WiredTiger message [1558959518:173125][4232:140707458403408], txn-recover: Set global recovery timestamp: 0
+2019-05-27T20:18:38.769+0800 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2019-05-27T20:18:38.962+0800 I CONTROL  [initandlisten] 
+2019-05-27T20:18:38.962+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-05-27T20:18:38.963+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-05-27T20:18:38.963+0800 I CONTROL  [initandlisten] 
+2019-05-27T20:18:39.838+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/workspace/exercise/MongoDB/db/diagnostic.data'
+2019-05-27T20:18:39.844+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2019-05-27T20:18:39.844+0800 I STORAGE  [initandlisten] Service running
+2019-05-30T09:57:19.408+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2019-05-30T09:57:19.428+0800 I NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2019-05-30T09:57:19.431+0800 I CONTROL  [serviceShutdown] Shutting down free monitoring
+2019-05-30T09:57:19.431+0800 I FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2019-05-30T09:57:19.447+0800 I STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2019-05-30T09:57:19.447+0800 I STORAGE  [serviceShutdown] Shutting down session sweeper thread
+2019-05-30T09:57:19.447+0800 I STORAGE  [serviceShutdown] Finished shutting down session sweeper thread
+2019-05-30T09:57:19.655+0800 I STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2019-05-30T09:57:19.656+0800 I CONTROL  [serviceShutdown] now exiting
+2019-05-30T09:57:42.979+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2019-05-30T09:57:44.468+0800 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-05-30T09:57:44.518+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2019-05-30T09:57:45.430+0800 I CONTROL  [initandlisten] MongoDB starting : pid=4944 port=27017 dbpath=D:\workspace\exercise\MongoDB\db 64-bit host=LAPTOP-EN2QSNAB
+2019-05-30T09:57:45.431+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2019-05-30T09:57:45.431+0800 I CONTROL  [initandlisten] db version v4.0.8
+2019-05-30T09:57:45.431+0800 I CONTROL  [initandlisten] git version: 9b00696ed75f65e1ebc8d635593bed79b290cfbb
+2019-05-30T09:57:45.432+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-05-30T09:57:45.432+0800 I CONTROL  [initandlisten] modules: none
+2019-05-30T09:57:45.432+0800 I CONTROL  [initandlisten] build environment:
+2019-05-30T09:57:45.432+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2019-05-30T09:57:45.433+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2019-05-30T09:57:45.433+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-05-30T09:57:45.433+0800 I CONTROL  [initandlisten] options: { config: "C:\Program Files\MongoDB\Server\4.0\bin\mongod.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, storage: { dbPath: "D:\workspace\exercise\MongoDB\db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "D:\workspace\exercise\MongoDB\log\log.log" } }
+2019-05-30T09:57:45.487+0800 I STORAGE  [initandlisten] Detected data files in D:\workspace\exercise\MongoDB\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2019-05-30T09:57:45.490+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7626M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-05-30T09:57:46.985+0800 I STORAGE  [initandlisten] WiredTiger message [1559181466:984778][4944:140732956626000], txn-recover: Main recovery loop: starting at 10/258944 to 11/256
+2019-05-30T09:57:47.434+0800 I STORAGE  [initandlisten] WiredTiger message [1559181467:434649][4944:140732956626000], txn-recover: Recovering log 10 through 11
+2019-05-30T09:57:47.742+0800 I STORAGE  [initandlisten] WiredTiger message [1559181467:742168][4944:140732956626000], txn-recover: Recovering log 11 through 11
+2019-05-30T09:57:47.945+0800 I STORAGE  [initandlisten] WiredTiger message [1559181467:945032][4944:140732956626000], txn-recover: Set global recovery timestamp: 0
+2019-05-30T09:57:48.447+0800 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2019-05-30T09:57:48.813+0800 I CONTROL  [initandlisten] 
+2019-05-30T09:57:48.814+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-05-30T09:57:48.814+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-05-30T09:57:48.814+0800 I CONTROL  [initandlisten] 
+2019-05-30T09:57:50.835+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/workspace/exercise/MongoDB/db/diagnostic.data'
+2019-05-30T09:57:50.922+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2019-05-30T09:57:50.922+0800 I STORAGE  [initandlisten] Service running
+2019-05-30T14:20:57.408+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2019-05-30T14:20:57.424+0800 I NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2019-05-30T14:20:57.426+0800 I CONTROL  [serviceShutdown] Shutting down free monitoring
+2019-05-30T14:20:57.427+0800 I FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2019-05-30T14:20:57.430+0800 I STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2019-05-30T14:20:57.430+0800 I STORAGE  [serviceShutdown] Shutting down session sweeper thread
+2019-05-30T14:20:57.430+0800 I STORAGE  [serviceShutdown] Finished shutting down session sweeper thread
+2019-05-30T14:20:57.706+0800 I STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2019-05-30T14:20:57.706+0800 I CONTROL  [serviceShutdown] now exiting
+2019-05-30T14:21:19.814+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2019-05-30T14:21:21.940+0800 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-05-30T14:21:22.109+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2019-05-30T14:21:22.289+0800 I CONTROL  [initandlisten] MongoDB starting : pid=4800 port=27017 dbpath=D:\workspace\exercise\MongoDB\db 64-bit host=LAPTOP-EN2QSNAB
+2019-05-30T14:21:22.289+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2019-05-30T14:21:22.290+0800 I CONTROL  [initandlisten] db version v4.0.8
+2019-05-30T14:21:22.290+0800 I CONTROL  [initandlisten] git version: 9b00696ed75f65e1ebc8d635593bed79b290cfbb
+2019-05-30T14:21:22.290+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-05-30T14:21:22.290+0800 I CONTROL  [initandlisten] modules: none
+2019-05-30T14:21:22.291+0800 I CONTROL  [initandlisten] build environment:
+2019-05-30T14:21:22.291+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2019-05-30T14:21:22.291+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2019-05-30T14:21:22.291+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-05-30T14:21:22.292+0800 I CONTROL  [initandlisten] options: { config: "C:\Program Files\MongoDB\Server\4.0\bin\mongod.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, storage: { dbPath: "D:\workspace\exercise\MongoDB\db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "D:\workspace\exercise\MongoDB\log\log.log" } }
+2019-05-30T14:21:22.532+0800 I STORAGE  [initandlisten] Detected data files in D:\workspace\exercise\MongoDB\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2019-05-30T14:21:22.534+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7626M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-05-30T14:21:23.563+0800 I STORAGE  [initandlisten] WiredTiger message [1559197283:563091][4800:140716349410384], txn-recover: Main recovery loop: starting at 11/39552 to 12/256
+2019-05-30T14:21:23.840+0800 I STORAGE  [initandlisten] WiredTiger message [1559197283:840350][4800:140716349410384], txn-recover: Recovering log 11 through 12
+2019-05-30T14:21:24.091+0800 I STORAGE  [initandlisten] WiredTiger message [1559197284:90680][4800:140716349410384], txn-recover: Recovering log 12 through 12
+2019-05-30T14:21:24.196+0800 I STORAGE  [initandlisten] WiredTiger message [1559197284:196404][4800:140716349410384], txn-recover: Set global recovery timestamp: 0
+2019-05-30T14:21:24.522+0800 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2019-05-30T14:21:24.984+0800 I CONTROL  [initandlisten] 
+2019-05-30T14:21:24.984+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-05-30T14:21:24.986+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-05-30T14:21:24.986+0800 I CONTROL  [initandlisten] 
+2019-05-30T14:21:26.778+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/workspace/exercise/MongoDB/db/diagnostic.data'
+2019-05-30T14:21:26.957+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2019-05-30T14:21:26.957+0800 I STORAGE  [initandlisten] Service running
+2019-05-30T21:38:18.104+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2019-05-30T21:38:18.105+0800 I NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2019-05-30T21:38:18.105+0800 I CONTROL  [serviceShutdown] Shutting down free monitoring
+2019-05-30T21:38:18.106+0800 I FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2019-05-30T21:38:18.110+0800 I STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2019-05-30T21:38:18.110+0800 I STORAGE  [serviceShutdown] Shutting down session sweeper thread
+2019-05-30T21:38:18.110+0800 I STORAGE  [serviceShutdown] Finished shutting down session sweeper thread
+2019-05-30T21:38:18.309+0800 I STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2019-05-30T21:38:18.310+0800 I CONTROL  [serviceShutdown] now exiting
+2019-05-30T21:38:41.508+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2019-05-30T21:38:43.363+0800 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-05-30T21:38:43.411+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2019-05-30T21:38:43.529+0800 I CONTROL  [initandlisten] MongoDB starting : pid=4244 port=27017 dbpath=D:\workspace\exercise\MongoDB\db 64-bit host=LAPTOP-EN2QSNAB
+2019-05-30T21:38:43.529+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2019-05-30T21:38:43.529+0800 I CONTROL  [initandlisten] db version v4.0.8
+2019-05-30T21:38:43.530+0800 I CONTROL  [initandlisten] git version: 9b00696ed75f65e1ebc8d635593bed79b290cfbb
+2019-05-30T21:38:43.530+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-05-30T21:38:43.530+0800 I CONTROL  [initandlisten] modules: none
+2019-05-30T21:38:43.531+0800 I CONTROL  [initandlisten] build environment:
+2019-05-30T21:38:43.531+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2019-05-30T21:38:43.531+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2019-05-30T21:38:43.531+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-05-30T21:38:43.532+0800 I CONTROL  [initandlisten] options: { config: "C:\Program Files\MongoDB\Server\4.0\bin\mongod.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, storage: { dbPath: "D:\workspace\exercise\MongoDB\db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "D:\workspace\exercise\MongoDB\log\log.log" } }
+2019-05-30T21:38:43.538+0800 I STORAGE  [initandlisten] exception in initAndListen std::exception: 无法加载或初始化请求的服务提供程序。, terminating
+2019-05-30T21:38:43.583+0800 I CONTROL  [serviceStopWorker] now exiting
+2019-05-30T21:39:12.241+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2019-05-30T21:39:14.360+0800 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-05-30T21:39:14.403+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2019-05-30T21:39:14.614+0800 I CONTROL  [initandlisten] MongoDB starting : pid=4224 port=27017 dbpath=D:\workspace\exercise\MongoDB\db 64-bit host=LAPTOP-EN2QSNAB
+2019-05-30T21:39:14.614+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2019-05-30T21:39:14.615+0800 I CONTROL  [initandlisten] db version v4.0.8
+2019-05-30T21:39:14.615+0800 I CONTROL  [initandlisten] git version: 9b00696ed75f65e1ebc8d635593bed79b290cfbb
+2019-05-30T21:39:14.615+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-05-30T21:39:14.615+0800 I CONTROL  [initandlisten] modules: none
+2019-05-30T21:39:14.616+0800 I CONTROL  [initandlisten] build environment:
+2019-05-30T21:39:14.616+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2019-05-30T21:39:14.616+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2019-05-30T21:39:14.617+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-05-30T21:39:14.617+0800 I CONTROL  [initandlisten] options: { config: "C:\Program Files\MongoDB\Server\4.0\bin\mongod.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, storage: { dbPath: "D:\workspace\exercise\MongoDB\db", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "D:\workspace\exercise\MongoDB\log\log.log" } }
+2019-05-30T21:39:14.627+0800 I STORAGE  [initandlisten] exception in initAndListen std::exception: 无法加载或初始化请求的服务提供程序。, terminating
+2019-05-30T21:39:14.656+0800 I CONTROL  [serviceStopWorker] now exiting
