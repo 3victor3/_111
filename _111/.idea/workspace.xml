@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a15acc4-be1d-40aa-bbc8-00692cf2d9e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MongoDB/db/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoDB/db/WiredTiger.turtle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MongoDB/db/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoDB/db/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MongoDB/db/collection-2-8659505024764082330.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoDB/db/collection-2-8659505024764082330.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MongoDB/db/index-3-8659505024764082330.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoDB/db/index-3-8659505024764082330.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MongoDB/db/journal/WiredTigerLog.0000000012" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MongoDB/db/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoDB/db/mongod.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MongoDB/db/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoDB/db/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MongoDB/log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/../MongoDB/log/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Web_crawler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web_crawler/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Web_crawler/spider_csdn" beforeDir="false" afterPath="$PROJECT_DIR$/../Web_crawler/spider_csdn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/Chapter_sixteen/Main_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/book/Chapter_sixteen/Main_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/book/Chapter_sixteen/Main_record.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/book/Chapter_sixteen/Main_record.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,32 +17,92 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_sixteen/Example_03.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/EnumMethodTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            <state relative-caret-position="380">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/EnumIndexTest0.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/EnumIndexTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
               <folding>
-                <element signature="e#87#88#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_sixteen/Record.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+            <state relative-caret-position="304">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_sixteen/Main_record.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/OverClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="66" column="65" lean-forward="true" selection-start-line="66" selection-start-column="65" selection-end-line="66" selection-end-column="65" />
+            <state relative-caret-position="228">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/ArrayClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/MutiOverClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/AnyClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,20 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_sixteen/Main_03.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/LimitClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_sixteen/Constructor_Annotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="322">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,6 +141,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -109,15 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/how2j_object/Weapon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/how2j_object/ADHero.java" />
-        <option value="$PROJECT_DIR$/src/main/java/how2j_object/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/how2j_object/Hero.java" />
-        <option value="$PROJECT_DIR$/src/main/java/how2j_object/Variable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/exercise/SyncThread.java" />
-        <option value="$USER_HOME$/Desktop/insert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/how2j_object/insert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/how2j_object/ESGYN_CONN.java" />
         <option value="$PROJECT_DIR$/src/main/java/how2j_object/conn.kt" />
         <option value="$PROJECT_DIR$/src/main/java/how2j_object/javaTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/how2j_object/HelloWorld.java" />
@@ -157,6 +191,18 @@
         <option value="$PROJECT_DIR$/src/main/java/book/Chapter_sixteen/Record.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/Chapter_sixteen/Constructor_Annotation.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/Chapter_sixteen/Main_record.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/ConstantsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/ShowEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/EnumMethodTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/EnumIndexTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/AnyEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/OverClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/ArrayClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/MutiOverClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/AnyClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/LimitClass.java" />
       </list>
     </option>
   </component>
@@ -174,6 +220,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,7 +262,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter_sixteen" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter_seventeen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="_111" type="b2602c69:ProjectViewProjectNode" />
@@ -232,12 +280,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559575108637" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560406207944" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ESGYN/esgyndb/core/conn/jdbcT4/target/jdbcT4-null-with-slf4j.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -257,13 +303,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main_record">
-    <configuration name="Main_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="book.Chapter_sixteen.Main_01" />
+  <component name="RunManager" selected="Application.AnyClass">
+    <configuration name="AnyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="book.Chapter_seventeen.AnyClass" />
       <module name="_111" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.Chapter_sixteen.*" />
+          <option name="PATTERN" value="book.Chapter_seventeen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,12 +317,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="book.Chapter_sixteen.Main_02" />
+    <configuration name="ArrayClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="book.Chapter_seventeen.ArrayClass" />
       <module name="_111" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.Chapter_sixteen.*" />
+          <option name="PATTERN" value="book.Chapter_seventeen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,12 +330,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="book.Chapter_sixteen.Main_03" />
+    <configuration name="MutiOverClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="book.Chapter_seventeen.MutiOverClass" />
       <module name="_111" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.Chapter_sixteen.*" />
+          <option name="PATTERN" value="book.Chapter_seventeen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,12 +343,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main_record" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="book.Chapter_sixteen.Main_record" />
+    <configuration name="OverClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="book.Chapter_seventeen.OverClass" />
       <module name="_111" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.Chapter_sixteen.*" />
+          <option name="PATTERN" value="book.Chapter_seventeen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,12 +356,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyZip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="book.Chapter_fifteen.MyZip" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="book.Chapter_seventeen.Test" />
       <module name="_111" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.Chapter_fifteen.*" />
+          <option name="PATTERN" value="book.Chapter_seventeen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -324,19 +370,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyZip" />
-      <item itemvalue="Application.Main_01" />
-      <item itemvalue="Application.Main_02" />
-      <item itemvalue="Application.Main_03" />
-      <item itemvalue="Application.Main_record" />
+      <item itemvalue="Application.AnyClass" />
+      <item itemvalue="Application.ArrayClass" />
+      <item itemvalue="Application.MutiOverClass" />
+      <item itemvalue="Application.OverClass" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main_record" />
-        <item itemvalue="Application.Main_03" />
-        <item itemvalue="Application.Main_02" />
-        <item itemvalue="Application.Main_01" />
-        <item itemvalue="Application.MyZip" />
+        <item itemvalue="Application.AnyClass" />
+        <item itemvalue="Application.MutiOverClass" />
+        <item itemvalue="Application.ArrayClass" />
+        <item itemvalue="Application.OverClass" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -363,10 +409,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19829424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22654155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -425,58 +471,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/how2j_object/ADHero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#82#83#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/how2j_object/Variable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/how2j_object/Hero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-          <folding>
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/how2j_object/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/how2j_object/insert.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/how2j_object/conn.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/how2j_object/ESGYN_CONN.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/how2j_object/HelloWorld.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/how2j_object/javaTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -761,6 +755,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_sixteen/Main_record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="42" column="84" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/ConstantsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/ShowEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_sixteen/Main_03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
@@ -778,6 +796,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/AnyEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/EnumMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/EnumIndexTest0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/EnumIndexTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/OverClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/ArrayClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/MutiOverClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/AnyClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_sixteen/Field_Method_Parameter_Annotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -788,10 +895,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_sixteen/Main_record.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/Chapter_seventeen/LimitClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="66" column="65" lean-forward="true" selection-start-line="66" selection-start-column="65" selection-end-line="66" selection-end-column="65" />
+        <state relative-caret-position="322">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
